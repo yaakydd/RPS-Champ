@@ -2,4 +2,5 @@
 ## Overview 
 A command line rock,paper,scissors game which is 
 fully built with python.
-User is at the freedom of playing with three AI models 
+User is at the freedom of playing with three different AI models.
+Choose based on your strengths.
