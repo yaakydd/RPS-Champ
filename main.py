@@ -1,4 +1,4 @@
-# This entrypoint file to be used in development. Start by reading README.md
+# This is the main entry point of the project
 from game import play, mrugesh, abbey, quincy, kris, human, random_player
 from rock_pasci import player
 from unittest import main
