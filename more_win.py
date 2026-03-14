@@ -2,12 +2,10 @@ import random
 
 # This code uses pattern recognition to adjust our moves to make us get more than 60% wins
 
-
-
-def player(prev_play, opponent_history=[]):
+def player(previous_play, opponent_history=[]):
     # Keep track of opponent's history
-    if prev_play:
-        opponent_history.append(prev_play)
+    if previous_play:
+        opponent_history.append(previous_play)
 
     # Default move
     guess = "R"
