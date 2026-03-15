@@ -12,4 +12,5 @@ you play.
 3. Woki
 4. Poki
 
-##Installation 
+## Installation 
+1. Clone the repository 
