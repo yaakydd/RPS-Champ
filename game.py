@@ -45,14 +45,14 @@ def play(player1, player2, num_games, verbose=False):
     return (win_rate)
 
 
-def quincy(prev_play, counter=[0]):
+def groki(prev_play, counter=[0]):
 
     counter[0] += 1
     choices = ["R", "R", "P", "P", "S"]
     return choices[counter[0] % len(choices)]
 
 
-def mrugesh(prev_opponent_play, opponent_history=[]):
+def poki(prev_opponent_play, opponent_history=[]):
     opponent_history.append(prev_opponent_play)
     last_ten = opponent_history[-10:]
     most_frequent = max(set(last_ten), key=last_ten.count)
@@ -64,14 +64,14 @@ def mrugesh(prev_opponent_play, opponent_history=[]):
     return ideal_response[most_frequent]
 
 
-def kris(prev_opponent_play):
+def woki(prev_opponent_play):
     if prev_opponent_play == '':
         prev_opponent_play = "R"
     ideal_response = {'P': 'S', 'R': 'P', 'S': 'R'}
     return ideal_response[prev_opponent_play]
 
 
-def abbey(prev_opponent_play,
+def roki(prev_opponent_play,
           opponent_history=[],
           play_order=[{
               "RR": 0,
