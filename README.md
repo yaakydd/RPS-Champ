@@ -1,4 +1,5 @@
 # RPS-Champ
+000
 ## Overview 
 A command line rock,paper,scissors game which is 
 fully built with python.
@@ -13,4 +14,5 @@ you play.
 4. Poki
 
 ## Installation 
-1. Clone the repository 
+1. Clone the repository
+2. Navigate to main.py and run the file 
