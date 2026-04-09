@@ -17,3 +17,5 @@ you play.
 1. Clone the repository
 2. Navigate to main.py and run the file
 3. Uncomment certain codes in the file to play with different bots
+
+## New Features:
