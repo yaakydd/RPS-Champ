@@ -19,4 +19,5 @@ you play.
 3. Uncomment certain codes in the file to play with different bots
 
 ## New Features:
-**Watch out** : User interface will be added soon
+**Watch out** : User interfaces will be added soon.
+A new project for that will be created separately with interactive features.
